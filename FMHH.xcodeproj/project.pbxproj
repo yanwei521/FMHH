@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		29C46C274D33C77C715F0D28 /* libPods-FMHH.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CF28ADEF82919CFB953C064C /* libPods-FMHH.a */; };
+		77001EAC21C3EF3E002675D9 /* FMLoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 77001EAA21C3EF3E002675D9 /* FMLoginVC.m */; };
+		77001EAD21C3EF3E002675D9 /* FMLoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77001EAB21C3EF3E002675D9 /* FMLoginVC.xib */; };
+		77001EB421C3F82B002675D9 /* FMManagePagesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 77001EB221C3F82B002675D9 /* FMManagePagesVC.m */; };
+		77001EB521C3F82B002675D9 /* FMManagePagesVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77001EB321C3F82B002675D9 /* FMManagePagesVC.xib */; };
+		77001EB921C3FAB2002675D9 /* FMpersonalDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 77001EB721C3FAB2002675D9 /* FMpersonalDetailCell.m */; };
+		77001EBA21C3FAB2002675D9 /* FMpersonalDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77001EB821C3FAB2002675D9 /* FMpersonalDetailCell.xib */; };
 		77F15FF321C3E7BF00FB1DA3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F15FF221C3E7BF00FB1DA3 /* AppDelegate.m */; };
 		77F15FF621C3E7BF00FB1DA3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F15FF521C3E7BF00FB1DA3 /* ViewController.m */; };
 		77F15FF921C3E7BF00FB1DA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77F15FF721C3E7BF00FB1DA3 /* Main.storyboard */; };
@@ -17,6 +23,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		77001EA921C3EF3E002675D9 /* FMLoginVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMLoginVC.h; sourceTree = "<group>"; };
+		77001EAA21C3EF3E002675D9 /* FMLoginVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMLoginVC.m; sourceTree = "<group>"; };
+		77001EAB21C3EF3E002675D9 /* FMLoginVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FMLoginVC.xib; sourceTree = "<group>"; };
+		77001EB121C3F82B002675D9 /* FMManagePagesVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMManagePagesVC.h; sourceTree = "<group>"; };
+		77001EB221C3F82B002675D9 /* FMManagePagesVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMManagePagesVC.m; sourceTree = "<group>"; };
+		77001EB321C3F82B002675D9 /* FMManagePagesVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FMManagePagesVC.xib; sourceTree = "<group>"; };
+		77001EB621C3FAB2002675D9 /* FMpersonalDetailCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMpersonalDetailCell.h; sourceTree = "<group>"; };
+		77001EB721C3FAB2002675D9 /* FMpersonalDetailCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMpersonalDetailCell.m; sourceTree = "<group>"; };
+		77001EB821C3FAB2002675D9 /* FMpersonalDetailCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FMpersonalDetailCell.xib; sourceTree = "<group>"; };
 		77F15FEE21C3E7BF00FB1DA3 /* FMHH.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FMHH.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77F15FF121C3E7BF00FB1DA3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		77F15FF221C3E7BF00FB1DA3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -52,6 +67,52 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		77001EA021C3EECC002675D9 /* LoginVC */ = {
+			isa = PBXGroup;
+			children = (
+				77001EA921C3EF3E002675D9 /* FMLoginVC.h */,
+				77001EAA21C3EF3E002675D9 /* FMLoginVC.m */,
+				77001EAB21C3EF3E002675D9 /* FMLoginVC.xib */,
+			);
+			path = LoginVC;
+			sourceTree = "<group>";
+		};
+		77001EAE21C3F20F002675D9 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				77F15FF121C3E7BF00FB1DA3 /* AppDelegate.h */,
+				77F15FF221C3E7BF00FB1DA3 /* AppDelegate.m */,
+				77F15FF421C3E7BF00FB1DA3 /* ViewController.h */,
+				77F15FF521C3E7BF00FB1DA3 /* ViewController.m */,
+				77F15FFF21C3E7C100FB1DA3 /* Info.plist */,
+				77F1600021C3E7C100FB1DA3 /* main.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		77001EAF21C3F23C002675D9 /* PicSource */ = {
+			isa = PBXGroup;
+			children = (
+				77F15FF721C3E7BF00FB1DA3 /* Main.storyboard */,
+				77F15FFA21C3E7C100FB1DA3 /* Assets.xcassets */,
+				77F15FFC21C3E7C100FB1DA3 /* LaunchScreen.storyboard */,
+			);
+			path = PicSource;
+			sourceTree = "<group>";
+		};
+		77001EB021C3F7DB002675D9 /* ManagePagesVC */ = {
+			isa = PBXGroup;
+			children = (
+				77001EB121C3F82B002675D9 /* FMManagePagesVC.h */,
+				77001EB221C3F82B002675D9 /* FMManagePagesVC.m */,
+				77001EB321C3F82B002675D9 /* FMManagePagesVC.xib */,
+				77001EB621C3FAB2002675D9 /* FMpersonalDetailCell.h */,
+				77001EB721C3FAB2002675D9 /* FMpersonalDetailCell.m */,
+				77001EB821C3FAB2002675D9 /* FMpersonalDetailCell.xib */,
+			);
+			path = ManagePagesVC;
+			sourceTree = "<group>";
+		};
 		77F15FE521C3E7BF00FB1DA3 = {
 			isa = PBXGroup;
 			children = (
@@ -73,15 +134,10 @@
 		77F15FF021C3E7BF00FB1DA3 /* FMHH */ = {
 			isa = PBXGroup;
 			children = (
-				77F15FF121C3E7BF00FB1DA3 /* AppDelegate.h */,
-				77F15FF221C3E7BF00FB1DA3 /* AppDelegate.m */,
-				77F15FF421C3E7BF00FB1DA3 /* ViewController.h */,
-				77F15FF521C3E7BF00FB1DA3 /* ViewController.m */,
-				77F15FF721C3E7BF00FB1DA3 /* Main.storyboard */,
-				77F15FFA21C3E7C100FB1DA3 /* Assets.xcassets */,
-				77F15FFC21C3E7C100FB1DA3 /* LaunchScreen.storyboard */,
-				77F15FFF21C3E7C100FB1DA3 /* Info.plist */,
-				77F1600021C3E7C100FB1DA3 /* main.m */,
+				77001EB021C3F7DB002675D9 /* ManagePagesVC */,
+				77001EA021C3EECC002675D9 /* LoginVC */,
+				77001EAE21C3F20F002675D9 /* Other */,
+				77001EAF21C3F23C002675D9 /* PicSource */,
 			);
 			path = FMHH;
 			sourceTree = "<group>";
@@ -122,6 +178,7 @@
 		77F15FE621C3E7BF00FB1DA3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = FM;
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "闫威威";
 				TargetAttributes = {
@@ -154,8 +211,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				77F15FFE21C3E7C100FB1DA3 /* LaunchScreen.storyboard in Resources */,
+				77001EB521C3F82B002675D9 /* FMManagePagesVC.xib in Resources */,
 				77F15FFB21C3E7C100FB1DA3 /* Assets.xcassets in Resources */,
+				77001EBA21C3FAB2002675D9 /* FMpersonalDetailCell.xib in Resources */,
 				77F15FF921C3E7BF00FB1DA3 /* Main.storyboard in Resources */,
+				77001EAD21C3EF3E002675D9 /* FMLoginVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,9 +247,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77001EB421C3F82B002675D9 /* FMManagePagesVC.m in Sources */,
 				77F15FF621C3E7BF00FB1DA3 /* ViewController.m in Sources */,
 				77F1600121C3E7C100FB1DA3 /* main.m in Sources */,
+				77001EB921C3FAB2002675D9 /* FMpersonalDetailCell.m in Sources */,
 				77F15FF321C3E7BF00FB1DA3 /* AppDelegate.m in Sources */,
+				77001EAC21C3EF3E002675D9 /* FMLoginVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,12 +397,15 @@
 				DEVELOPMENT_TEAM = 9C8439L29Q;
 				INFOPLIST_FILE = FMHH/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.yw.FMHH;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "54a5fdaf-a6a5-41bd-8807-3ff3baff6e30";
 				PROVISIONING_PROFILE_SPECIFIER = "wang xu wild test for miguzhibo";
-				TARGETED_DEVICE_FAMILY = 2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -352,12 +418,15 @@
 				DEVELOPMENT_TEAM = 9C8439L29Q;
 				INFOPLIST_FILE = FMHH/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.yw.FMHH;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "54a5fdaf-a6a5-41bd-8807-3ff3baff6e30";
 				PROVISIONING_PROFILE_SPECIFIER = "wang xu wild test for miguzhibo";
-				TARGETED_DEVICE_FAMILY = 2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
